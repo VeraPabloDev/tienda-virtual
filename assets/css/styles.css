@@ -1,0 +1,19 @@
+/* styles.css */
+
+#mapid {
+    width: 100%;
+    height: 300px;
+    position: absolute; /* Cambiado de relative a absolute */
+    top: 0; /* Ajuste la posición superior según sea necesario */
+    left: 0; /* Ajuste la posición izquierda según sea necesario */
+    z-index: 1;
+}
+
+/* Ajusta el tamaño del mapa */
+#mapid {
+    width: 100%;
+    height: 300px;
+}
+.mapboxgl-canvas-container.mapboxgl-interactive {
+    opacity: 0 !important;
+}
